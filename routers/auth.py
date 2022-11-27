@@ -2,7 +2,7 @@
 from schema.users import User
 
 from fastapi import(
-    APIRouter, Body, Form, status
+    APIRouter, Body, Form, status, HTTPException
 ) 
 
 
